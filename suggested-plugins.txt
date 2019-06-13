@@ -1,0 +1,47 @@
+# Jenkins configs
+simple-theme-plugin
+disk-usage
+timestamper
+device-watcher
+gcal
+gcm-notification
+html5-notifier-plugin
+html-audio-notifier
+
+# SCM
+git
+git-client
+github
+github-api
+github-pullrequest
+github-issues
+# git-parameter
+
+# Loaders
+envfile
+travis-yml
+
+# Runtimes
+nodejs
+msbuild
+docker-plugin
+# docker-build-step
+# docker-commons
+
+# Analysis and Metrics
+vs-code-metrics
+elasticsearch-query
+sonar
+violations
+jsunit
+
+# Reporting
+cucumber-reports
+email-ext
+
+# Publishing
+publish-over-ftp
+publish-over-ssh
+publish-over-dropbox
+slack-uploader
+gcloud-sdk

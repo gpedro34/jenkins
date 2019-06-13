@@ -1,0 +1,15 @@
+version: "3"
+services:
+  jenkins:
+    container_name: jenkins
+    build: .
+    ports:
+      - "8080:8080"
+    environment:
+      - JAVA_OPTS:-Djava.awt.headless=true
+      - PLUGINS_FORCE_UPGRADE=true
+      - TRY_UPGRADE_IF_NO_MARKER=true
+    volumes:
+      - jenkins_home:/var/jenkins_home
+volumes:
+  jenkins_home:
