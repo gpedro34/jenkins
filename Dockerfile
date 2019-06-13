@@ -1,7 +1,7 @@
 FROM jenkins/jenkins:lts
 
 LABEL Name="Jenkins CI"
-LABEL Version="1.0.0"
+LABEL Version="1.0.1"
 LABEL Maintainer "gpedro34 <> http://github.com/gpedro34"
 # Login as root
 USER root

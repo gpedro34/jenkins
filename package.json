@@ -1,6 +1,6 @@
 {
   "name": "jenkins",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Jenkins with a list of plugins to install on build stage.",
   "main": "",
   "scripts": {
