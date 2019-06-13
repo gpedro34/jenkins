@@ -4,11 +4,11 @@
   "description": "Jenkins with a list of plugins to install on build stage.",
   "main": "",
   "scripts": {
-    "build": "docker build -t jenkins --no-cache .",
+    "build": "docker build -t gpedro34/jenkins --no-cache .",
     "up": "docker run -d --name jenkins -e JAVA_OPTS=\"-Djava.awt.headless=true\" -e PLUGINS_FORCE_UPGRADE=true -e TRY_UPGRADE_IF_NO_MARKER=true -v jenkins_home:/var/jenkins_home -p 8080:8080 jenkins:latest",
     "down": "docker kill jenkins:latest",
     "restart": "npm run down && npm run up",
-    "build:test": "docker build -t jenkins:test --no-cache .",
+    "build:test": "docker build -t gpedro34/jenkins:test --no-cache .",
     "up:test": "docker run -d --name jenkins-test -e JAVA_OPTS=\"-Djava.awt.headless=true\" -e PLUGINS_FORCE_UPGRADE=true -e TRY_UPGRADE_IF_NO_MARKER=true -v jenkins_home:/var/jenkins_home -p 8080:8080 jenkins:test",
     "down:test": "docker kill jenkins-test",
     "restart:test": "npm run down:test && npm run up:test",
