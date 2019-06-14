@@ -11,8 +11,7 @@ USER root
 # Install via apt
 RUN apt-get update \
     && apt-get -y install git=1:2.11.0-3+deb9u4 --no-install-recommends \
-    && apt-get autoclean \
-    && rm -rf /var/lib/apt/lists/*
+    && apt-get autoclean
 
 # Give root permissions to jenkins user in order to be able to run docker as a cloud on the host
 RUN usermod -g root jenkins
