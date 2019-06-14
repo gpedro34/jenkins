@@ -5,6 +5,7 @@ services:
     build: .
     ports:
       - "8080:8080"
+      - "50000:50000"
     environment:
       - JAVA_OPTS:-Djava.awt.headless=true
       - PLUGINS_FORCE_UPGRADE=true

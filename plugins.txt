@@ -1,24 +1,24 @@
-git
-git-client
-github
-github-api
-github-pullrequest
-github-issues
+git:latest
+git-client:latest
+github:latest
+github-api:latest
+github-pullrequest:latest
+github-issues:latest
 
-nodejs
+nodejs:latest
 
-docker-plugin
-vs-code-metrics
-sonar
+docker-plugin:latest
+vs-code-metrics:latest
+sonar:latest
 
-violations
-jsunit
-email-ext
-gcloud-sdk
+violations:latest
+jsunit:latest
+email-ext:latest
+gcloud-sdk:latest
 
-simple-theme-plugin
-disk-usage
-timestamper
-device-watcher
-html5-notifier-plugin
-html-audio-notifier
+simple-theme-plugin:latest
+disk-usage:latest
+timestamper:latest
+device-watcher:latest
+html5-notifier-plugin:latest
+html-audio-notifier:latest

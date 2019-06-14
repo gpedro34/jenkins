@@ -2,8 +2,8 @@ FROM jenkins/jenkins:lts
 # jenkins/jenkins:lts already exposes port 8080 and 50000
 # See https://github.com/jenkinsci/docker/blob/master/README.md for more information on the base image
 LABEL repository.name="Jenkins"
-LABEL repository.tag="1.1.0"
-LABEL repository.tag.version="1.1.0"
+LABEL repository.tag="latest"
+LABEL repository.tag.version="latest"
 LABEL repository.docker="https://hub.docker.com/r/gpedro34/jenkins"
 LABEL repository.maintainer "gpedro34 - http://github.com/gpedro34 - https://hub.docker.com/r/gpedro34"
 # Login as root
